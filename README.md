@@ -8,13 +8,13 @@ Two closely related Malayic standards, coordinated through a shared regional ter
 
 | File | Description |
 |------|-------------|
-| `Borrowing Asymmetry Dashboard.html` | Self-contained interactive dashboard (no internet or libraries required). |
+| `Index.html` | Self-contained interactive dashboard (no internet or libraries required). |
 | `05 Coded Dataset.xlsx` | The full 185-term coded dataset (terms, techniques, term type, register, borrowing codes). |
 | `validate.RData` | R workspace for reproducing the statistical tests. |
 
 ## Viewing the dashboard
 
-Just **double-click `Borrowing Asymmetry Dashboard.html`** to open it in any web browser — it works fully offline. Features:
+Just **double-click `Index.html`** to open it in any web browser — it works fully offline. Features:
 
 - **Primary ↔ Sensitivity coding toggle** — flips the native Indonesian initialisms (APD, PDP, ODP) between *borrowing* and *nativisation*; every figure, chart, and table recomputes live.
 - **KPI cards** — overall borrowing rates, paired odds ratio, concordance counts.
@@ -47,4 +47,4 @@ Ardik Ardianto · Agus Riyanto
 
 ---
 
-*This dashboard accompanies the manuscript "Loan or Translate? The Borrowing Asymmetry in English COVID-19 Health Terminology." Register coding is a first-pass classification pending native-speaker validation.*
+*This dashboard accompanies the manuscript "Loan or Translate? The Borrowing Asymmetry in English COVID-19 Health Terminology."*

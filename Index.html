@@ -153,10 +153,10 @@ function bars(catList){ // [{label, indo, malay}]
   return s+'</svg>';
 }
 function techBars(){const T=DATA.techniques.filter(t=>!t.sub);const max=Math.max(...T.flatMap(t=>[t.indo,t.malay]));
-  const W=520,rowH=34,padL=150,padR=40,H=T.length*rowH+10,full=W-padL-padR;
+  const W=660,rowH=34,padL=232,padR=42,H=T.length*rowH+10,full=W-padL-padR;
   let s=`<svg viewBox="0 0 ${W} ${H}" width="100%" height="${H}">`;
   T.forEach((t,i)=>{const y=i*rowH+8;
-    s+=`<text x="0" y="${y+13}" font-size="11.5" fill="#1c1c1a">${t.name}</text>`;
+    s+=`<text x="0" y="${y+13}" font-size="11" fill="#1c1c1a">${t.name}</text>`;
     [['Indonesian','#1B365D',t.indo],['Malay','#C26B3A',t.malay]].forEach((d,k)=>{
       const by=y+k*12,w=Math.max(1,(d[2]/max)*full);
       s+=`<rect x="${padL}" y="${by}" width="${w}" height="9" rx="2" fill="${d[1]}"><title>${t.name} — ${d[0]}: ${d[2]}</title></rect>`;
